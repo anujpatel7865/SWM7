@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk
 
-COPY target/SWM7.jar /user/app
+COPY target/SWM7.jar /user/app/
 
 WORKDIR /user/app/
 
